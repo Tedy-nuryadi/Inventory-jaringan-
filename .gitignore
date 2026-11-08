@@ -1,0 +1,96 @@
+*.log
+.DS_Store
+.env
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+/.fleet
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+/auth.json
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+Homestead.json
+Homestead.yaml
+Thumbs.db
+# Database and backup files
+*.sql
+*.sql.gz
+*.bak
+*.backup
+*.zip
+*.7z
+
+# SSL certificates and private keys
+*.pem
+*.key
+*.pfx
+*.p12
+*.crt
+
+# Runtime and uploaded files
+/storage/app/private/
+/storage/app/public/
+/storage/framework/cache/data/
+/storage/framework/sessions/
+/storage/framework/views/
+/storage/logs/
+/public/.well-known/
+
+# Additional security protection
+/.env
+/.env.*
+!/.env.example
+
+# Runtime and private data
+/storage/app/private/
+/storage/framework/cache/data/
+/storage/framework/sessions/
+/storage/framework/views/
+/storage/logs/
+/bootstrap/cache/*.php
+
+# Database backups
+/database/backups/
+*.sql
+*.sql.gz
+*.dump
+*.bak
+
+# SSL certificates and private keys
+*.pem
+*.key
+*.pfx
+*.p12
+# Local database and backups
+/database/*.sqlite
+/database/*.sqlite3
+/database/*.db
+*.sql
+*.sql.gz
+*.dump
+*.bak
+
+# Private files
+*.pem
+*.pfx
+*.p12
+*.key
+
+# Local backup configuration
+*.before-*
+*.backup*
+
+# Backup archives
+*.zip
+*.7z
+*.rar
